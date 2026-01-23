@@ -1,3 +1,5 @@
+"use client";
+
 import Banner from './Banner/page';
 import Category from './Category/page';
 import Hero from './Hero/page';
