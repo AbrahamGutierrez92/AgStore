@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Sophisticated Swagger Suit",
+        "price": 90.99,
+        "offerPrice": 20,
+        "category": "Dresses",
+        "image": "/product-1.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 2,
+        "name": "Collar casual shirt",
+        "price": 94.99,
+        "offerPrice": 20,
+        "category": "Outerwear",
+        "image": "/product-2.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 3,
+        "name": "Solid cut away collar",
+        "price": 65.99,
+        "offerPrice": 20,
+        "category": "Dresses",
+        "image": "/product-3.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 4,
+        "name": "Athletic Mesh Sport",
+        "price": 75.99,
+        "offerPrice": 20,
+        "category": "Jackets",
+        "image": "/product-4.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 5,
+        "name": "Best Denim Overalls Shorts",
+        "price": 70.99,
+        "offerPrice": 20,
+        "category": "Jackets",
+        "image": "/product-5.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 6,
+        "name": "Best Plaid Woolen Coat",
+        "price": 68.99,
+        "offerPrice": 20,
+        "category": "Jackets",
+        "image": "/product-6.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+     {
+        "id": 7,
+        "name": "Best Plaid Woolen Coat",
+        "price": 68.99,
+        "offerPrice": 20,
+        "category": "Jackets",
+        "image": "/product-7.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 8,
+        "name": "Water Resistant Windbreaker",
+        "price": 97.99,
+        "offerPrice": 20,
+        "category": "Jackets",
+        "image": "/product-8.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    },
+    {
+        "id": 9,
+        "name": "Classic Denim Skinny",
+        "price": 84.99,
+        "offerPrice": 20,
+        "category": "Outerwear",
+        "image": "/product-9.webp",
+        "rating": 4.5,
+        "reviews": 150
+
+    }
+]
