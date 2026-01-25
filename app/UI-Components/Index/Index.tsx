@@ -12,7 +12,7 @@ import Fallow from './Follow/page';
 
 const Index = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Category/>
       <Trending/>
@@ -21,7 +21,7 @@ const Index = () => {
       <Companies/>
       <Blog/>
       <Fallow/>
-    </div>
+    </>
   )
 }
 
