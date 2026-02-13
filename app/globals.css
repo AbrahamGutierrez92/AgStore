@@ -448,6 +448,29 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/*Shop Page*/
+.page-section{
+  width: 100%;
+  height: 400px;
+  background-image:url(../public/page-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+/*
+.page-section:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: -1;
+}
+*/
+
 @media (max-width: 991px) {
   .star-shape2 {
     top: 35%;
@@ -600,3 +623,4 @@ body {
     bottom: -5%;
   }
 }
+
