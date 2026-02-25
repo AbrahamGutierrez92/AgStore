@@ -7,6 +7,8 @@ import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import Fallow from "../Index/Follow/page";
+
 type ProductType = {
   id: number;
   name: string;
@@ -267,9 +269,9 @@ const Shop = () => {
                     </div>
                   </Link>
                 </div>
-                <div className="  lg:bottom-28 lg-left-18">
+                <div className="lg:bottom-28 lg-left-18">
                   <Link href={`/UI-Components/Shop/${product.id}`}>
-                    <button className="btn bg-black text-white cursor-pointer GolosText text-xl px-6 py-3 rounded-2xl w-full lg:w-auto lg:rounded-full border-3 border-white">
+                    <button className="btn bg-black text-white cursor-pointer GolosText text-xl px-6 py-3 rounded-2xl w-full lg:w-full lg:rounded-full border-3 border-white">
                       View Details
                     </button>
                   </Link>
@@ -279,6 +281,8 @@ const Shop = () => {
           ))}
         </div>
       </div>
+      <Fallow />
+       <ToastContainer position="top-right" autoClose={1500} />
     </>
   );
 };
