@@ -1,9 +1,14 @@
-import React from 'react'
-
-const page = () => {
-  return (
-    <div>page</div>
-  )
+interface PageProps {
+  params: {
+    id: string;
+  };
 }
 
-export default page
+export default function Page({ params }: PageProps) {
+  return (
+    <div>
+      <h1>Blog dinámico</h1>
+      <p>ID: {params.id}</p>
+    </div>
+  );
+}
